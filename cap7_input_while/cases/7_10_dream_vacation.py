@@ -15,3 +15,4 @@ while polling_active:
 print("\n----Poll Results----")
 for name, response in responses.items():
     print(f"{name.title()} would like to visit {response.title()}.")
+    print("Hola")
